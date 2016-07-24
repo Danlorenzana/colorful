@@ -1,0 +1,79 @@
+/* font-family: 'BioRhyme', serif;
+font-family: 'Cabin', sans-serif; */
+
+* {
+	font-family: 'Cabin', sans-serif;
+	margin: 0 auto;
+}
+body {
+
+}
+a {
+	text-decoration: none;
+	color: #38464A;
+}
+nav {
+	min-height: 120px;
+	background-color: #a6d2db;
+
+}
+nav div {
+	width: 60%;
+
+}
+nav a.logo {
+	font-family: 'BioRhyme', serif;
+	font-size: 15pt;
+	font-weight: 800;
+	position: absolute;
+	padding: 40px 10px;
+}
+nav ul {
+	float: right;
+	padding: 40px 10px;
+}
+nav ul li {
+	display: inline-block;
+	margin-left: 20px;
+	padding: 10px;
+	border-radius: 6px;
+
+}
+nav ul li:hover {
+	background-color: #38464A;
+	color: #a6d2db;
+
+}
+nav ul li a:hover {
+	color: #a6d2db;
+}
+header {
+	min-height: 350px;
+	background-color: #a6d2db;
+}
+header div {
+	width: 60%;
+}
+header div .headline {
+	width: 50%;
+	float: left;
+}
+header h1 {
+	color: #fff;
+	font-family: 'BioRhyme', serif;
+	letter-spacing: 1.5pt;
+	font-size: 30pt;
+	text-align: center;
+	padding: 30px 0px;
+}
+header div .mac {
+	width: 50%;
+	float: left;
+}
+header div .mac img {
+	width: 75%;
+	float: left;
+	padding-left: 20px;
+}
+
+
